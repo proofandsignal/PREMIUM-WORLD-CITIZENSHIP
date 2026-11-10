@@ -1,0 +1,24 @@
+name: Concierge offline safety CI
+on:
+  pull_request:
+  push:
+    branches:
+      - build-001-shared-concierge
+permissions:
+  contents: read
+jobs:
+  offline-safety:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify dependency-free tests
+        run: npm test
+      - name: Verify no external runtime dependencies
+        run: |
+          test ! -d node_modules
+          test ! -e .env
+          grep -q "connect-src 'none'" demo/index.html
