@@ -22,3 +22,25 @@ jobs:
           test ! -d node_modules
           test ! -e .env
           grep -q "connect-src 'none'" demo/index.html
+  browser-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install temporary test-only Chromium tooling
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install chromium --with-deps
+      - name: Test desktop and mobile UI without external requests
+        run: node tests/browser-smoke.cjs
+      - name: Archive test screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: concierge-browser-qa
+          path: artifacts/
+          if-no-files-found: ignore
+          retention-days: 7
