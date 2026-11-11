@@ -23,7 +23,7 @@ jobs:
           test ! -e .env
           grep -q "connect-src 'none'" demo/index.html
   browser-smoke:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
