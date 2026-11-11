@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; connect-src 'none'; object-src 'none'">
+<title>Shared Concierge | Premium World Citizenship × Tax Genie — Private Demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a href="https://github.com/proofandsignal/PREMIUM-WORLD-CITIZENSHIP" class="brand"><span class="emblem" aria-hidden="true">✦</span><span>PREMIUM WORLD CITIZENSHIP<small>by TrendSolutions</small></span></a>
+  <span class="status">PRIVATE CONCEPT · NO LIVE AI</span>
+</header>
+<main>
+<section class="hero">
+  <div class="eyebrow">A CONSIDERED FIRST STEP</div>
+  <h1>Your world.<br><em>Your choices.</em></h1>
+  <p>Explore common questions and create a preliminary inquiry draft for the right team. No personal records or documents are collected in this demonstration.</p>
+  <div class="hero-points"><span>International perspective</span><span>Source-first research</span><span>Human review</span></div>
+</section>
+<section class="work">
+  <div class="overline">01 · SELECT A SERVICE</div>
+  <div class="switcher" role="group" aria-label="Select service">
+    <button type="button" id="switch-pwc" class="selected" aria-pressed="true">✧ Premium World Citizenship <small>TrendSolutions</small></button>
+    <button type="button" id="switch-tax" aria-pressed="false">◇ Tax Genie <small>Proof &amp; Signal</small></button>
+  </div>
+  <div class="panels">
+    <section class="panel" aria-labelledby="questions-title">
+      <div class="overline">02 · EXPLORE COMMON QUESTIONS</div>
+      <h2 id="questions-title">Ask our concierge</h2>
+      <p class="muted">Choose a question below. These are pre-approved educational answers, <strong>not an AI-generated conclusion</strong>.</p>
+      <div id="question-buttons" class="questions"></div>
+      <div class="response" role="status" aria-live="polite"><div class="overline">CONCIERGE RESPONSE</div><p id="answer">Select a topic to begin exploring.</p></div>
+      <div id="human-notice" class="notice" hidden>Human review required. The concierge cannot answer this question.</div>
+    </section>
+    <section class="panel formpanel" aria-labelledby="intake-title">
+      <div class="overline">03 · PREPARE AN INQUIRY</div>
+      <h2 id="intake-title">Your preliminary brief</h2>
+      <p class="muted">Select general categories only. Do not share names, emails, passport numbers, tax IDs, invoices or bank statements.</p>
+      <form id="intake" autocomplete="off" novalidate></form>
+      <div class="actions"><button type="button" class="primary" id="generate">Generate draft</button><button type="button" class="secondary" id="reset">Clear</button></div>
+      <div id="summary-area" hidden><label for="summary">Your local draft — nothing has been submitted</label><textarea id="summary" rows="9" readonly></textarea><button type="button" class="secondary" id="copy">Copy draft</button></div>
+      <p role="status" id="feedback" class="feedback" aria-live="polite"></p>
+    </section>
+  </div>
+</section>
+<section class="footnotes">
+  <div><div class="overline">WHAT HAPPENS NEXT</div><h2>A professional takes it further.</h2><p>Real client intake, human handoff, ManyChat, scheduling and secure document submission are <strong>not connected</strong>. This demo neither saves nor transmits form data.</p></div>
+  <div><div class="overline">INDEPENDENT PRODUCTS</div><p><strong>Premium World Citizenship</strong> and <strong>Tax Genie</strong> remain separate brands, repositories, legal reviews and datasets. A future approved integration may route a request to its own team.</p><p><strong>All answers:</strong> General educational information only. No banking, legal, tax or immigration advice or guaranteed outcome.</p></div>
+</section>
+</main>
+<footer>PRIVATE DEMO-001 · NO CLIENT DATA · NO LIVE AI · NO BANKING OR REFUND ELIGIBILITY DECISIONS</footer>
+<script src="../src/concierge.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
