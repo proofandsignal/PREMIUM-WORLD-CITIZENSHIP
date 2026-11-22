@@ -62,3 +62,13 @@ A product shown on a bank's official site is **not** evidence of a contract with
 \`legal entity → supervisor licence/register link → customer country eligibility (BG/EU) → online/branch/KYC → min deposit + all fees → asset/deposit protection → official bank programme → commercial compensation terms → cross-border compliance → timestamp + original bank response\`
 
 **STATUS**: \`GLOBAL RESEARCH RECORDED · OFFICIAL PRODUCT SOURCES FOUND · ZERO BANK-APPROVED BG CLIENT ELIGIBILITY · ZERO PARTNERS CONTRACTED · ZERO OUTREACH · NO GATE CHANGE\`.
+
+
+## Africa additions (official banking product evidence, 22 Nov 2026)
+| Region | Institution | Official confirmed details | Unresolved |
+|---|---|---|---|
+| South Africa | Standard Bank Non-Resident Banking | Specifically states that overseas residents can apply **from anywhere in the world**; non-resident foreign currency / transactional / private bank options: https://www.standardbank.co.za/southafrica/personal/products-and-services/bank-with-us/foreign-nationals/non-residents and FAQ https://www.standardbank.co.za/southafrica/personal/products-and-services/bank-with-us/foreign-nationals/non-residents/frequently-asked-question | Bulgarian residents, KYC acceptance, balance/rand exchange controls, any formal partner route |
+| South Africa | Absa Non-resident Banking | Official non-resident international banking service, passports/address/letter of authority requested: https://www.absa.co.za/personal/bank/international-banking/non-resident-banking/ | Remote extent, Bulgarian residence accepted, FX rules/referral permission |
+| Mauritius | MCB Foreign Currency Account | MCB offers EUR/USD/GBP and other currency account, online for **existing online banking users** or branch upon appointment: https://mcb.mu/personal/accounts-packages/foreign-currency-account | Not evidence that a new Bulgarian non-resident can open remotely, or that business referrals are paid |
+
+Note: South African foreign-exchange controls and client source-of-funds requirements must be explained; \`nonresident bank product\` does not confer tax advantages elsewhere.
